@@ -48,4 +48,13 @@ var (
 
 	// dimStyle for secondary text.
 	dimStyle = lipgloss.NewStyle().Foreground(colorDimGreen)
+
+	// resultOpenStyle for an open port verdict.
+	resultOpenStyle = lipgloss.NewStyle().Foreground(colorHighlight).Bold(true)
+
+	// resultClosedStyle for a closed/filtered port verdict.
+	resultClosedStyle = lipgloss.NewStyle().Foreground(lipgloss.Color("#FF3333")).Bold(true)
+
+	// resultDividerStyle for the separator line in the results block.
+	resultDividerStyle = lipgloss.NewStyle().Foreground(colorDimGreen)
 )
