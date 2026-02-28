@@ -1,0 +1,1 @@
+I am writing this as an exercise in using AI. The goal is a TUI based application that can perform basic network testing for someone who is not quite ready or rarely uses the CLI. It should be an easily deployable single binary and usable over ssh.
